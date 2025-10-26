@@ -1,0 +1,534 @@
+{
+  "pharmaceutical_products": [
+    {
+      "product_id": "META-001",
+      "generic_name": "Metformin",
+      "brand_names": ["Glucophage", "Fortamet", "Glumetza", "Riomet"],
+      "therapeutic_class": "Biguanide Antidiabetic",
+      "chemical_class": "Guanidine derivative",
+      "molecular_formula": "C4H11N5",
+      "molecular_weight": "165.6 g/mol",
+      "mechanism_of_action": "AMPK activation, inhibits hepatic gluconeogenesis, improves insulin sensitivity",
+      "primary_indications": ["Type 2 Diabetes Mellitus"],
+      "off_label_uses": ["Polycystic Ovary Syndrome", "Weight management", "Antipsychotic-induced weight gain"],
+      "dosage_forms": [
+        {
+          "form": "Immediate-release tablet",
+          "strengths": ["500mg", "850mg", "1000mg"],
+          "appearance": "White to off-white, round, film-coated",
+          "storage": "20-25°C, protect from moisture"
+        },
+        {
+          "form": "Extended-release tablet",
+          "strengths": ["500mg", "750mg", "1000mg"],
+          "appearance": "White to off-white, capsule-shaped, film-coated",
+          "storage": "20-25°C, protect from moisture"
+        },
+        {
+          "form": "Oral solution",
+          "strengths": ["500mg/5mL"],
+          "appearance": "Clear, colorless to slightly yellow liquid",
+          "storage": "20-25°C, protect from light"
+        }
+      ],
+      "pharmacokinetics": {
+        "bioavailability": "50-60%",
+        "protein_binding": "Negligible",
+        "half_life": "6.2 hours",
+        "time_to_peak": "2-3 hours (IR), 4-8 hours (ER)",
+        "metabolism": "Not metabolized",
+        "excretion": "Renal (90% unchanged)",
+        "food_effect": "Decreases and delays absorption"
+      },
+      "dosing_information": {
+        "initial_dose": "500mg twice daily or 850mg once daily",
+        "maintenance_dose": "1500-2550mg daily in divided doses",
+        "maximum_dose": "2550mg daily",
+        "renal_adjustment": "Not recommended if eGFR <30",
+        "geriatric_dosing": "Start low, go slow"
+      },
+      "safety_profile": {
+        "common_side_effects": ["Diarrhea", "Nausea", "Vomiting", "Flatulence", "Abdominal discomfort"],
+        "serious_side_effects": ["Lactic acidosis", "Vitamin B12 deficiency"],
+        "black_box_warnings": ["Lactic acidosis risk"],
+        "contraindications": ["Renal disease (eGFR <30)", "Metabolic acidosis", "Hypersensitivity"],
+        "drug_interactions": ["Cimetidine", "Furosemide", "Nifedipine", "Cationic drugs"]
+      },
+      "manufacturing_specifications": {
+        "active_ingredient": "Metformin hydrochloride",
+        "inactive_ingredients": ["Povidone", "Magnesium stearate", "Hypromellose"],
+        "shelf_life": "24 months",
+        "packaging": "HDPE bottles, blister packs",
+        "storage_conditions": "Room temperature (20-25°C), protect from moisture"
+      },
+      "regulatory_status": {
+        "fda_approval": "1994",
+        "ema_approval": "1995",
+        "other_markets": "Approved in 100+ countries",
+        "regulatory_class": "Prescription only",
+        "schedule": "Not controlled"
+      },
+      "quality_specifications": {
+        "assay": "90.0-110.0% of labeled amount",
+        "impurities": "N-Nitrosodimethylamine (NDMA) <0.096 ppm",
+        "dissolution": "≥80% in 30 minutes (IR), ≥80% in 8 hours (ER)",
+        "uniformity": "Content uniformity 85-115%",
+        "stability": "Stable under recommended storage conditions"
+      }
+    },
+    {
+      "product_id": "IVER-001",
+      "generic_name": "Ivermectin",
+      "brand_names": ["Stromectol", "Soolantra", "Ivomec"],
+      "therapeutic_class": "Antiparasitic",
+      "chemical_class": "Avermectin derivative",
+      "molecular_formula": "C48H74O14 + C47H72O14",
+      "molecular_weight": "875.1 g/mol",
+      "mechanism_of_action": "Binds to glutamate-gated chloride channels, increases cell membrane permeability to chloride ions",
+      "primary_indications": ["Strongyloidiasis", "Onchocerciasis", "Scabies"],
+      "off_label_uses": ["Rosacea", "Head lice", "Malaria prevention"],
+      "dosage_forms": [
+        {
+          "form": "Tablet",
+          "strengths": ["3mg"],
+          "appearance": "White, round, scored tablet",
+          "storage": "20-25°C, protect from light"
+        },
+        {
+          "form": "Topical cream",
+          "strengths": ["1%"],
+          "appearance": "White to off-white cream",
+          "storage": "20-25°C, do not freeze"
+        },
+        {
+          "form": "Oral solution",
+          "strengths": ["0.8%"],
+          "appearance": "Clear, colorless to pale yellow liquid",
+          "storage": "20-25°C, protect from light"
+        }
+      ],
+      "pharmacokinetics": {
+        "bioavailability": "High with fatty meals",
+        "protein_binding": "93%",
+        "half_life": "18 hours",
+        "time_to_peak": "4 hours",
+        "metabolism": "Hepatic (CYP3A4)",
+        "excretion": "Feces (>90%), urine (<1%)",
+        "food_effect": "Increases bioavailability 2.5-fold"
+      },
+      "dosing_information": {
+        "standard_dose": "150-200 mcg/kg as single dose",
+        "repeat_dosing": "May repeat in 3-12 months for certain indications",
+        "maximum_dose": "No established maximum",
+        "renal_adjustment": "Not required",
+        "hepatic_adjustment": "Use with caution in liver disease"
+      },
+      "safety_profile": {
+        "common_side_effects": ["Pruritus", "Fever", "Headache", "Dizziness", "Diarrhea"],
+        "serious_side_effects": ["Hypotension", "Toxic epidermal necrolysis", "Hepatitis"],
+        "black_box_warnings": [],
+        "contraindications": ["Hypersensitivity", "Meningitis risk in Loa loa infection"],
+        "drug_interactions": ["Warfarin", "Benzodiazepines", "Other CYP3A4 substrates"]
+      },
+      "manufacturing_specifications": {
+        "active_ingredient": "Ivermectin",
+        "inactive_ingredients": ["Microcrystalline cellulose", "Pregelatinized starch", "Magnesium stearate"],
+        "shelf_life": "36 months",
+        "packaging": "Blister packs, bottles",
+        "storage_conditions": "Room temperature (20-25°C), protect from light"
+      },
+      "regulatory_status": {
+        "fda_approval": "1996",
+        "ema_approval": "1997",
+        "other_markets": "Approved in 80+ countries",
+        "regulatory_class": "Prescription only",
+        "schedule": "Not controlled"
+      },
+      "quality_specifications": {
+        "assay": "90.0-110.0% of labeled amount",
+        "impurities": "Related substances <2.0%",
+        "dissolution": "≥75% in 45 minutes",
+        "uniformity": "Content uniformity 85-115%",
+        "stability": "Stable under recommended storage conditions"
+      }
+    },
+    {
+      "product_id": "REMD-001",
+      "generic_name": "Remdesivir",
+      "brand_names": ["Veklury"],
+      "therapeutic_class": "Antiviral",
+      "chemical_class": "Nucleotide analog",
+      "molecular_formula": "C27H35N6O8P",
+      "molecular_weight": "602.6 g/mol",
+      "mechanism_of_action": "RNA-dependent RNA polymerase inhibitor, incorporates into viral RNA causing premature chain termination",
+      "primary_indications": ["COVID-19"],
+      "off_label_uses": ["Ebola virus disease", "Respiratory Syncytial Virus"],
+      "dosage_forms": [
+        {
+          "form": "Lyophilized powder for injection",
+          "strengths": ["100mg/vial"],
+          "appearance": "White to off-white lyophilized solid",
+          "storage": "2-8°C, protect from light"
+        },
+        {
+          "form": "Solution for injection",
+          "strengths": ["100mg/20mL"],
+          "appearance": "Clear, colorless to yellow solution",
+          "storage": "2-8°C, do not freeze"
+        }
+      ],
+      "pharmacokinetics": {
+        "bioavailability": "100% (IV administration)",
+        "protein_binding": "88%",
+        "half_life": "1 hour (parent), 27 hours (metabolite)",
+        "time_to_peak": "End of infusion",
+        "metabolism": "Hepatic (CYP3A4, CES1)",
+        "excretion": "Renal (74%), fecal (18%)",
+        "food_effect": "Not applicable (IV only)"
+      },
+      "dosing_information": {
+        "loading_dose": "200mg on day 1",
+        "maintenance_dose": "100mg daily for 4-9 days",
+        "maximum_dose": "200mg single dose",
+        "renal_adjustment": "No adjustment needed for eGFR ≥30",
+        "hepatic_adjustment": "No adjustment needed"
+      },
+      "safety_profile": {
+        "common_side_effects": ["Nausea", "Increased liver enzymes", "Headache", "Injection site reactions"],
+        "serious_side_effects": ["Hypersensitivity reactions", "Liver toxicity", "Bradycardia"],
+        "black_box_warnings": [],
+        "contraindications": ["Hypersensitivity to remdesivir"],
+        "drug_interactions": ["Chloroquine", "Hydroxychloroquine", "Strong CYP3A inducers"]
+      },
+      "manufacturing_specifications": {
+        "active_ingredient": "Remdesivir",
+        "inactive_ingredients": ["Sulfobutylether-beta-cyclodextrin", "Water for injection"],
+        "shelf_life": "24 months",
+        "packaging": "Glass vials, ready-to-use solutions",
+        "storage_conditions": "Refrigerated (2-8°C), protect from light"
+      },
+      "regulatory_status": {
+        "fda_approval": "2020",
+        "ema_approval": "2020",
+        "other_markets": "Approved in 50+ countries",
+        "regulatory_class": "Prescription only",
+        "schedule": "Not controlled"
+      },
+      "quality_specifications": {
+        "assay": "90.0-110.0% of labeled amount",
+        "impurities": "Individual unknown ≤0.5%",
+        "sterility": "Sterile",
+        "endotoxins": "<5.0 EU/mg",
+        "stability": "Stable under recommended storage conditions"
+      }
+    },
+    {
+      "product_id": "ASPI-001",
+      "generic_name": "Aspirin",
+      "brand_names": ["Bayer", "Ecotrin", "Aspro", "Disprin"],
+      "therapeutic_class": "Salicylate, NSAID",
+      "chemical_class": "Acetylated salicylate",
+      "molecular_formula": "C9H8O4",
+      "molecular_weight": "180.2 g/mol",
+      "mechanism_of_action": "Irreversible COX-1 and COX-2 inhibitor, inhibits platelet aggregation, anti-inflammatory effects",
+      "primary_indications": ["Pain", "Fever", "Inflammation", "Cardiovascular prevention"],
+      "off_label_uses": ["Colorectal cancer prevention", "Preeclampsia prevention", "Migraine prophylaxis"],
+      "dosage_forms": [
+        {
+          "form": "Immediate-release tablet",
+          "strengths": ["81mg", "325mg", "500mg"],
+          "appearance": "White, round, enteric-coated or plain",
+          "storage": "20-25°C, protect from moisture"
+        },
+        {
+          "form": "Chewable tablet",
+          "strengths": ["81mg"],
+          "appearance": "Orange-flavored, chewable",
+          "storage": "20-25°C, protect from moisture"
+        },
+        {
+          "form": "Suppository",
+          "strengths": ["300mg", "600mg"],
+          "appearance": "White to off-white suppository",
+          "storage": "2-8°C"
+        }
+      ],
+      "pharmacokinetics": {
+        "bioavailability": "80-100%",
+        "protein_binding": "80-90%",
+        "half_life": "2-3 hours (low dose), 15-30 hours (high dose)",
+        "time_to_peak": "1-2 hours",
+        "metabolism": "Hepatic (hydrolysis to salicylic acid)",
+        "excretion": "Renal",
+        "food_effect": "Delays absorption but does not affect extent"
+      },
+      "dosing_information": {
+        "analgesic_dose": "325-650mg every 4-6 hours",
+        "antiplatelet_dose": "81-325mg once daily",
+        "maximum_dose": "4000mg daily",
+        "renal_adjustment": "Use with caution in renal impairment",
+        "geriatric_dosing": "Use lowest effective dose"
+      },
+      "safety_profile": {
+        "common_side_effects": ["GI upset", "Heartburn", "Nausea"],
+        "serious_side_effects": ["GI bleeding", "Reye's syndrome", "Tinnitus", "Renal impairment"],
+        "black_box_warnings": ["Reye's syndrome in children with viral infections"],
+        "contraindications": ["Active peptic ulcer", "Bleeding disorders", "Children with viral infections"],
+        "drug_interactions": ["Warfarin", "Methotrexate", "Other NSAIDs", "ACE inhibitors"]
+      },
+      "manufacturing_specifications": {
+        "active_ingredient": "Acetylsalicylic acid",
+        "inactive_ingredients": ["Corn starch", "Cellulose", "Talc", "Enteric coating polymers"],
+        "shelf_life": "36 months",
+        "packaging": "Bottles, blister packs, unit dose",
+        "storage_conditions": "Room temperature (20-25°C), protect from moisture"
+      },
+      "regulatory_status": {
+        "fda_approval": "1899 (grandfathered)",
+        "ema_approval": "Historical approval",
+        "other_markets": "Approved worldwide",
+        "regulatory_class": "OTC and prescription",
+        "schedule": "Not controlled"
+      },
+      "quality_specifications": {
+        "assay": "90.0-110.0% of labeled amount",
+        "impurities": "Salicylic acid ≤3.0%",
+        "dissolution": "≥80% in 30 minutes (immediate release)",
+        "uniformity": "Content uniformity 85-115%",
+        "stability": "Stable under recommended storage conditions"
+      }
+    },
+    {
+      "product_id": "ATOR-001",
+      "generic_name": "Atorvastatin",
+      "brand_names": ["Lipitor", "Atorva", "Torvast"],
+      "therapeutic_class": "Statin (HMG-CoA reductase inhibitor)",
+      "chemical_class": "Synthetic statin",
+      "molecular_formula": "C33H35FN2O5",
+      "molecular_weight": "558.6 g/mol",
+      "mechanism_of_action": "Competitive HMG-CoA reductase inhibition, reduces cholesterol synthesis, upregulates LDL receptors",
+      "primary_indications": ["Hypercholesterolemia", "Dyslipidemia", "Cardiovascular risk reduction"],
+      "off_label_uses": ["Alzheimer's disease", "Stroke prevention", "Multiple sclerosis"],
+      "dosage_forms": [
+        {
+          "form": "Tablet",
+          "strengths": ["10mg", "20mg", "40mg", "80mg"],
+          "appearance": "White to off-white, round, film-coated",
+          "storage": "20-25°C, protect from moisture"
+        },
+        {
+          "form": "Oral suspension",
+          "strengths": ["2mg/mL"],
+          "appearance": "White to off-white suspension",
+          "storage": "2-8°C, shake well before use"
+        }
+      ],
+      "pharmacokinetics": {
+        "bioavailability": "14%",
+        "protein_binding": "≥98%",
+        "half_life": "14 hours",
+        "time_to_peak": "1-2 hours",
+        "metabolism": "Hepatic (CYP3A4)",
+        "excretion": "Biliary",
+        "food_effect": "Slight decrease in rate but not extent of absorption"
+      },
+      "dosing_information": {
+        "initial_dose": "10-20mg once daily",
+        "maintenance_dose": "10-80mg once daily",
+        "maximum_dose": "80mg daily",
+        "renal_adjustment": "No adjustment needed",
+        "hepatic_adjustment": "Contraindicated in active liver disease"
+      },
+      "safety_profile": {
+        "common_side_effects": ["Headache", "GI upset", "Muscle pain", "Joint pain"],
+        "serious_side_effects": ["Rhabdomyolysis", "Liver toxicity", "Diabetes mellitus"],
+        "black_box_warnings": ["Rhabdomyolysis risk"],
+        "contraindications": ["Active liver disease", "Pregnancy", "Lactation"],
+        "drug_interactions": ["Cyclosporine", "Strong CYP3A4 inhibitors", "Gemfibrozil"]
+      },
+      "manufacturing_specifications": {
+        "active_ingredient": "Atorvastatin calcium",
+        "inactive_ingredients": ["Calcium carbonate", "Croscarmellose sodium", "Hydroxypropyl cellulose"],
+        "shelf_life": "24 months",
+        "packaging": "Bottles, blister packs",
+        "storage_conditions": "Room temperature (20-25°C), protect from moisture and light"
+      },
+      "regulatory_status": {
+        "fda_approval": "1996",
+        "ema_approval": "1997",
+        "other_markets": "Approved in 100+ countries",
+        "regulatory_class": "Prescription only",
+        "schedule": "Not controlled"
+      },
+      "quality_specifications": {
+        "assay": "90.0-110.0% of labeled amount",
+        "impurities": "Individual unknown ≤0.2%",
+        "dissolution": "≥80% in 30 minutes",
+        "uniformity": "Content uniformity 85-115%",
+        "stability": "Stable under recommended storage conditions"
+      }
+    },
+    {
+      "product_id": "SILD-001",
+      "generic_name": "Sildenafil",
+      "brand_names": ["Viagra", "Revatio"],
+      "therapeutic_class": "PDE5 inhibitor",
+      "chemical_class": "Pyrazolopyrimidinone derivative",
+      "molecular_formula": "C22H30N6O4S",
+      "molecular_weight": "474.6 g/mol",
+      "mechanism_of_action": "Selective phosphodiesterase type 5 inhibition, increases cGMP, promotes smooth muscle relaxation",
+      "primary_indications": ["Erectile dysfunction", "Pulmonary arterial hypertension"],
+      "off_label_uses": ["Altitude sickness", "Raynaud's phenomenon", "Antidepressant-induced sexual dysfunction"],
+      "dosage_forms": [
+        {
+          "form": "Tablet",
+          "strengths": ["25mg", "50mg", "100mg"],
+          "appearance": "Blue, film-coated, diamond-shaped",
+          "storage": "20-25°C, protect from moisture"
+        },
+        {
+          "form": "Oral suspension",
+          "strengths": ["10mg/mL"],
+          "appearance": "White to off-white suspension",
+          "storage": "2-8°C, shake well before use"
+        }
+      ],
+      "pharmacokinetics": {
+        "bioavailability": "40%",
+        "protein_binding": "96%",
+        "half_life": "3-5 hours",
+        "time_to_peak": "30-120 minutes",
+        "metabolism": "Hepatic (CYP3A4, CYP2C9)",
+        "excretion": "Fecal (80%), renal (13%)",
+        "food_effect": "Delays absorption, high-fat meal reduces Cmax by 29%"
+      },
+      "dosing_information": {
+        "ed_dose": "50mg 1 hour before sexual activity",
+        "pah_dose": "20mg three times daily",
+        "maximum_dose": "100mg daily for ED, 80mg daily for PAH",
+        "renal_adjustment": "25mg starting dose for severe impairment",
+        "hepatic_adjustment": "25mg starting dose for cirrhosis"
+      },
+      "safety_profile": {
+        "common_side_effects": ["Headache", "Flushing", "Dyspepsia", "Nasal congestion", "Visual disturbances"],
+        "serious_side_effects": ["Priapism", "Sudden hearing loss", "Cardiovascular events"],
+        "black_box_warnings": ["Nitrate contraindication"],
+        "contraindications": ["Concomitant nitrate therapy", "Cardiovascular instability"],
+        "drug_interactions": ["Nitrates", "Alpha-blockers", "Strong CYP3A4 inhibitors", "Ritonavir"]
+      },
+      "manufacturing_specifications": {
+        "active_ingredient": "Sildenafil citrate",
+        "inactive_ingredients": ["Microcrystalline cellulose", "Calcium hydrogen phosphate", "Croscarmellose sodium"],
+        "shelf_life": "36 months",
+        "packaging": "Blisters, bottles",
+        "storage_conditions": "Room temperature (20-25°C), protect from moisture"
+      },
+      "regulatory_status": {
+        "fda_approval": "1998 (Viagra), 2005 (Revatio)",
+        "ema_approval": "1998",
+        "other_markets": "Approved in 100+ countries",
+        "regulatory_class": "Prescription only",
+        "schedule": "Not controlled"
+      },
+      "quality_specifications": {
+        "assay": "90.0-110.0% of labeled amount",
+        "impurities": "Individual unknown ≤0.5%",
+        "dissolution": "≥80% in 30 minutes",
+        "uniformity": "Content uniformity 85-115%",
+        "stability": "Stable under recommended storage conditions"
+      }
+    },
+    {
+      "product_id": "DOXY-001",
+      "generic_name": "Doxycycline",
+      "brand_names": ["Vibramycin", "Doryx", "Monodox"],
+      "therapeutic_class": "Tetracycline antibiotic",
+      "chemical_class": "Synthetic tetracycline",
+      "molecular_formula": "C22H24N2O8",
+      "molecular_weight": "444.4 g/mol",
+      "mechanism_of_action": "Protein synthesis inhibition by binding to 30S ribosomal subunit, bacteriostatic",
+      "primary_indications": ["Bacterial infections", "Acne", "Malaria prevention"],
+      "off_label_uses": ["Rosacea", "Periodontitis", "Lyme disease", "Mycoplasma infections"],
+      "dosage_forms": [
+        {
+          "form": "Capsule",
+          "strengths": ["50mg", "100mg"],
+          "appearance": "Orange and white capsules",
+          "storage": "20-25°C, protect from light and moisture"
+        },
+        {
+          "form": "Tablet",
+          "strengths": ["50mg", "75mg", "100mg"],
+          "appearance": "Yellow, film-coated",
+          "storage": "20-25°C, protect from light and moisture"
+        },
+        {
+          "form": "Syrup",
+          "strengths": ["25mg/5mL"],
+          "appearance": "Red, cherry-flavored liquid",
+          "storage": "2-8°C, protect from light"
+        }
+      ],
+      "pharmacokinetics": {
+        "bioavailability": "90-100%",
+        "protein_binding": "80-90%",
+        "half_life": "18-22 hours",
+        "time_to_peak": "2-4 hours",
+        "metabolism": "Not significantly metabolized",
+        "excretion": "Renal (40%), fecal (30%)",
+        "food_effect": "Reduced absorption with dairy, antacids, iron"
+      },
+      "dosing_information": {
+        "standard_dose": "100mg twice daily first day, then 100mg daily",
+        "acne_dose": "50-100mg once or twice daily",
+        "maximum_dose": "300mg daily",
+        "renal_adjustment": "No adjustment needed",
+        "hepatic_adjustment": "Use with caution"
+      },
+      "safety_profile": {
+        "common_side_effects": ["GI upset", "Photosensitivity", "Esophageal irritation", "Vaginal candidiasis"],
+        "serious_side_effects": ["Pseudotumor cerebri", "Hepatotoxicity", "Tooth discoloration"],
+        "black_box_warnings": ["Tooth discoloration and enamel hypoplasia in children <8 years"],
+        "contraindications": ["Hypersensitivity to tetracyclines", "Children <8 years", "Pregnancy"],
+        "drug_interactions": ["Antacids", "Iron supplements", "Warfarin", "Oral contraceptives"]
+      },
+      "manufacturing_specifications": {
+        "active_ingredient": "Doxycycline hyclate",
+        "inactive_ingredients": ["Lactose", "Magnesium stearate", "Talc", "Cellulose derivatives"],
+        "shelf_life": "36 months",
+        "packaging": "Bottles, blister packs",
+        "storage_conditions": "Room temperature (20-25°C), protect from light and moisture"
+      },
+      "regulatory_status": {
+        "fda_approval": "1967",
+        "ema_approval": "1968",
+        "other_markets": "Approved in 100+ countries",
+        "regulatory_class": "Prescription only",
+        "schedule": "Not controlled"
+      },
+      "quality_specifications": {
+        "assay": "90.0-110.0% of labeled amount",
+        "impurities": "Related tetracyclines ≤2.0%",
+        "dissolution": "≥85% in 30 minutes",
+        "uniformity": "Content uniformity 85-115%",
+        "stability": "Stable under recommended storage conditions"
+      }
+    }
+  ],
+  "product_categories": {
+    "antidiabetics": ["META-001"],
+    "antiparasitics": ["IVER-001"],
+    "antivirals": ["REMD-001"],
+    "analgesics_antiinflammatories": ["ASPI-001"],
+    "cardiovascular": ["ATOR-001", "ASPI-001"],
+    "urological": ["SILD-001"],
+    "antibiotics": ["DOXY-001"]
+  },
+  "metadata": {
+    "total_products": 7,
+    "last_updated": "2024-01-25",
+    "data_source": "FDA Orange Book, EMA EPAR, Manufacturer Specifications",
+    "version": "1.0",
+    "update_frequency": "Quarterly"
+  }
+}
