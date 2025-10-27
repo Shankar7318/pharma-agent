@@ -60,7 +60,7 @@ utils/ – Data processing, APIs, and utilities
 data/ – Comprehensive pharmaceutical databases
 
 tests/ – Complete test suite
-
+'''
 📊 Features
 🔬 Research Capabilities
 
@@ -170,7 +170,7 @@ Frontend: Streamlit
 LLM: OpenAI GPT-4
 
 Data Processing: Pandas, Plotly
-
+'''
 Testing: Pytest
 '''
 📁 Project Structure

@@ -1,7 +1,26 @@
 from crewai import Agent, Task, Crew, Process
-from crewai_tools import BaseTool
+#from crewai_tools import BaseTool
 from typing import Dict, List, Any
 import json
+# Alternative import approaches
+try:
+    # Approach 1: Direct from crewai
+    from crewai.tools import BaseTool
+except ImportError:
+    try:
+        # Approach 2: From crewai_tools
+        from crewai_tools import BaseTool
+    except ImportError:
+        try:
+            # Approach 3: From langchain (if available)
+            from langchain.tools import BaseTool as LangchainBaseTool
+            BaseTool = LangchainBaseTool
+        except ImportError:
+            # Final fallback
+            class BaseTool:
+                def __init__(self, *args, **kwargs):
+                    self.name = kwargs.get('name', 'unnamed_tool')
+                    self.description = kwargs.get('description', '')
 
 
 class PharmaResearchOrchestrator:
